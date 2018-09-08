@@ -1,0 +1,90 @@
+/************* BASE CLASS *************/
+* {
+    font-family: Calibri;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+/************* HEADER *************/
+#header-nav {
+    background-color: #daa090;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-header h1 {
+    color: black;
+    font-weight: bold;
+    padding-left: 30px;
+    margin: 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+    height: 80px;
+}
+
+#nav-list {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+#nav-list li:hover {
+    background: #E7E7E7;
+}
+
+#nav-list li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+/************* HEADER BUTTON *************/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+    margin-top: 25px;
+}
+
+/************* MAIN TITLE SECTION *************/
+.title, .contentTitle {
+    text-align: center;
+    font-weight: bold;
+    margin: 15px;
+}
+
+/************* CONTENT SECTION *************/
+h1 {
+    /*text-align: center;*/
+    font-weight: bold;
+}
+
+.col-sm-12, .col-xs-12 {
+    padding-top: 20px;
+}
+
+.sectionBox {
+    border: 1px solid black;
+    overflow: auto;
+    height: 1000px;
+    background-color: silver;
+}
+
+.sectionBox > h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.sectionBox p {
+    font-size: 1.2em;
+    padding: 0 20px 10px 20px;
+}
+
+.backToTop, .backToSection {
+    padding-left: 20px;
+}
