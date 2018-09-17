@@ -64,6 +64,10 @@ h1 {
     font-weight: bold;
 }
 
+#foodTiles {
+    padding-bottom: 20px;
+}
+
 .col-sm-12, .col-xs-12 {
     padding-top: 20px;
 }
